@@ -1,0 +1,79 @@
+# =============================================================================
+# .gitignore cho đồ án CHẤM CÔNG THÔNG MINH - SMARTCHECK
+# Sinh viên: Phan Hữu Vinh - MSSV: 2380602565
+# =============================================================================
+
+# --- .NET / ASP.NET Core ---
+bin/
+obj/
+TestResults/
+test_bin/
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+
+# User Secrets & Local Appsettings
+**/appsettings.Production.json
+**/appsettings.*.local.json
+**/secrets.json
+.env
+.env.*
+!.env.example
+
+# --- Flutter / Dart ---
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+
+# --- Android ---
+**/android/.gradle/
+**/android/captures/
+**/android/local.properties
+**/android/key.properties
+**/android/**/GeneratedPluginRegistrant.java
+**/android/**/GeneratedPluginRegistrant.kt
+**/android/app/build/
+
+# Android Signing & Keystores (Tuyệt đối không đưa lên Git)
+*.jks
+*.keystore
+*.key
+google-services.json
+
+# APK & AAB builds
+*.apk
+*.aab
+
+# --- Visual Studio Code / JetBrains / IDEs ---
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.iml
+
+# --- Hệ điều hành Windows / macOS ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- Logs & Database Backups ---
+*.log
+*.bak
+*.mdf
+*.ldf
+.artifacts/
+
+# Công cụ cục bộ do IDE sinh ra, không phải GitHub Actions
+.github/modernize/
+

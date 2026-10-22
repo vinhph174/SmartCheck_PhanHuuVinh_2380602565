@@ -1,0 +1,6 @@
+@ChamCong_PhanHuuVinh_2380602565_API_HostAddress = http://localhost:5262
+
+GET {{ChamCong_PhanHuuVinh_2380602565_API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
